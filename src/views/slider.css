@@ -28,4 +28,10 @@
         left: 0; */
       }
 
+      .img-container img{
+        height: 100vh;
+        width: auto;
+        object-fit: cover;
+    }
+
 }
