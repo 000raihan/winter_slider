@@ -9,10 +9,13 @@ const Slider = () => {
     <div className='slider'>
         <Carousel infiniteLoop={true}>
             <div className='img-container'>
-                <img src='/slider_img/img 1.jpg'/>
+                <img src='slider_img/slider1.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='/slider_img/img 1.jpg'/>
+                <img src='slider_img/slider2.jpg'/>
+            </div>
+            <div className='img-container'>
+                <img src='slider_img/slider3.jpg'/>
             </div>
         </Carousel>
     </div>
