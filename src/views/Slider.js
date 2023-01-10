@@ -9,46 +9,46 @@ const Slider = () => {
     <div className='slider'>
         <Carousel interval={3000} infiniteLoop={true}>
             <div className='img-container'>
-                <img src='slider_img/slider1.jpg'/>
+                <img src='slider_img/1slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider2.jpg'/>
+                <img src='slider_img/2slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider3.jpg'/>
+                <img src='slider_img/3slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider4.png'/>
+                <img src='slider_img/4slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider5.png'/>
+                <img src='slider_img/5slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider6.jpg'/>
+                <img src='slider_img/6slider.jpg'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider7.png'/>
+                <img src='slider_img/7slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider8.png'/>
+                <img src='slider_img/8slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider9.png'/>
+                <img src='slider_img/9slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider10.png'/>
+                <img src='slider_img/10slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider11.png'/>
+                <img src='slider_img/11slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider12.png'/>
+                <img src='slider_img/12slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider13.jpg'/>
+                <img src='slider_img/13slider.png'/>
             </div>
             <div className='img-container'>
-                <img src='slider_img/slider14.jpg'/>
+                <img src='slider_img/14slider.png'/>
             </div>
         </Carousel>
     </div>
