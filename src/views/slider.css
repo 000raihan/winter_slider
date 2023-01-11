@@ -4,13 +4,14 @@
 }
 
 .img-container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 .img-container img{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .thumbs-wrapper{
@@ -18,20 +19,22 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .slider {
+    .slider{
         /* Rotate the content container */
+        /* transform: rotate(90deg); */
         transform: rotate(90deg);
-        /* transform-origin: left top; */
-        /* Set content width to viewport height */
+        /* height: 100%; */
+        width: 100vh;
         /* position: absolute;
-        top: 100%;
+        top: 0;
         left: 0; */
+        
       }
 
-      .img-container img{
-        height: 100vh;
+      /* .img-containers img{
+        height: 100%;
         width: auto;
         object-fit: cover;
-    }
+    } */
 
 }
