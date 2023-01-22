@@ -7,7 +7,7 @@ import './slider.css'
 const Slider = () => {
   return (
     <div className='slider'>
-        <Carousel interval={3000} infiniteLoop={true}>
+        <Carousel autoPlay={true} interval={10000} infiniteLoop={true}>
             <div className='img-container'>
                 <img className='img1' src='slider_img/1slider.jpg'/>
                 <img className='img2' src='slider_img/1slider2.jpg'/>
