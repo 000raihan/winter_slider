@@ -8,7 +8,7 @@ const Slide1 = () => {
     <img className='img2' src='slider_img/1slider2.jpg'/>
     <ReactAudioPlayer
     src="/audio/1.mp3"
-    autoPlay
+    autoPlay ={true}
     controls={false}
     />
 </div>
