@@ -14,8 +14,8 @@ const Slider = () => {
     useEffect(() => {
       const id = setInterval(() =>{
         // console.log("Im called")
-    //    countIncreatement();
-       counDecreatement();
+       countIncreatement();
+    //    counDecreatement();
     
     }, 10000);
   
