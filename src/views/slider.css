@@ -1,6 +1,7 @@
 .slider{
-    height: 100vh;
-    width: 100vw;
+    /* height: 100%;
+    width: 100%; */
+    overflow: hidden;
 }
 
 .img-container{
@@ -12,8 +13,8 @@
     height: 100%;
 }
 .img-container img{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     object-fit: cover;
     object-position: center;
 }
@@ -22,14 +23,15 @@
     display: none;
 }
 
-/* .img2{
+.img2{
     display: none;
-} */
+}
 
 @media only screen and (max-width: 768px) {
     .slider{
         /* Rotate the content container */
         /* transform: rotate(90deg); */
+        overflow:visible !important;
         transform: rotate(90deg);
         height: 100vw !important;
         /* width: 100% !important; */
@@ -46,14 +48,14 @@
       .img1{
         display: none !important;
     }
-      /* .img2{
+      .img2{
         display: block;
-    } */
+    }
 
-      /* .img-containers img{
+     .img-container img{
         height: 100%;
-        width: auto;
+        width: 100vh !important;
         object-fit: cover;
-    } */
+    } 
 
 }

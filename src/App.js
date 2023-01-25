@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
     <Slider/>
+    <audio src="/audio/one.mp3" autoplay></audio>
     </div>
   );
 }
